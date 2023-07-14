@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 Route::post('/post', function() {
   return view('testpost')
-})
+});
