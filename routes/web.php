@@ -18,5 +18,10 @@ Route::get('/', function () {
 });
 
 Route::post('/post', function() {
-  return view('testpost')
+  return view('testpost');
+});
+
+
+Route::about('/about', function() {
+  return view('test about');
 });
